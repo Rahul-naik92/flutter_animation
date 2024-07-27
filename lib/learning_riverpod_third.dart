@@ -11,6 +11,14 @@ class LearningThird extends ConsumerStatefulWidget {
 
 class _LearningThirdState extends ConsumerState<LearningThird> {
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    final name = ref.read(nameProvider);
+    print(name);
+  }
+
+  @override
   Widget build(BuildContext context) {
     final name = ref.watch(nameProvider);
     return Scaffold(
