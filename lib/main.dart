@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animation/learning_riverpod.dart';
 import 'package:flutter_animation/learning_riverpod_second.dart';
 import 'package:flutter_animation/learning_riverpod_third.dart';
+import 'package:flutter_animation/screen/counder_screen.dart';
+import 'package:flutter_animation/screen/user_details.dart';
 import 'package:flutter_animation/service/learning_state_provider.dart';
 import 'dart:math' show pi;
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
         useMaterial3: true,
       ),
-      home: const LearningStateProvider(),
+      home: const UserDetailsScreen(),
     );
   }
 }
