@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/learning_riverpod.dart';
 import 'package:flutter_animation/learning_riverpod_second.dart';
+import 'package:flutter_animation/learning_riverpod_third.dart';
 import 'dart:math' show pi;
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
         useMaterial3: true,
       ),
-      home: const SecondExampleRiverpod(),
+      home: const LearningThird(),
     );
   }
 }
